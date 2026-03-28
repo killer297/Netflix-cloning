@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Stack+Sans+Text:wght@200..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 90vh;
+    position: relative;
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 65px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'martel sans', sans-serif;
+    /* font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif; */
+    /* gap: 15px; */
+    padding: 0 30px;
+}
+
+.font {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.hero :nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hero :nth-child(4) {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hero :nth-child(5) {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.separation{
+    height: 6px;
+    background-color: rgb(40, 40, 40);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: black;
+}
+
+.btn-red{
+background-color: red;
+color: white;
+padding: 18px 35px 18px 12px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.main input{
+        padding: 18px 155px 18px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: rgba(25, 25, 25, 0.3);
+}
+
+.btn-red-sm{
+    background-color: red;
+}
